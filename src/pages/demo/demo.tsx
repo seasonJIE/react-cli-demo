@@ -1,16 +1,21 @@
 import * as React from "react";
-import {useEffect, useState} from "react";
 
-export const Demo = () => {
+export default class Demo extends React.Component<any, any> {
+  constructor(props: any) {
+    super(props)
+    this.state = {
+      demo: "demo",
+    }
+  }
 
-  useEffect(() => {
-    setDemo("demo123")
-  }, [])
+  componentDidMount(): void {
+    this.setState({demo: "demo123"})
+  }
 
-  const [demo, setDemo] = useState("demo")
-  return (
-    <>
+  render() {
+    const {demo} = this.state
+    return (<>
       {demo}
-    </>
-  )
+    </>)
+  }
 }
