@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+*.log
+
+.idea
+
+dist
+__build__
+.awcache
+.happypack
+
+tags
+*.swp
