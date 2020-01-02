@@ -1,10 +1,12 @@
 import * as React from "react";
-import {Route} from "react-router-dom";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 import {Demo} from "@pages/demo/Demo"
 
 const Routers = () => {
   return (
-    <Route path="/aos/Demo" component={Demo}/>
+    <Router>
+      <Route path="/demo" component={Demo}/>
+    </Router>
   )
 }
 
