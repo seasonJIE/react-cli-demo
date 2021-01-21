@@ -20,7 +20,7 @@
     "gulp-ftp": "^1.1.0",
     "gulp-sftp": "^0.1.5",
     "gulp-util": "^3.0.8",
-    "immer": "^3.2.0",
+    "immer": "^8.0.1",
     "lodash": "^4.17.15",
     "md5": "^2.2.1",
     "query-string": "^4.2.3",
